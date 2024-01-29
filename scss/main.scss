@@ -1,0 +1,24 @@
+@import "./base/vars";
+@import "./components/section";
+@import "./components/placeholder";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  padding-top: 20px;
+  border-radius: var(--radius-none, 0px);
+
+  background: linear-gradient(180deg, #6561ff 0%, #000012 100%);
+}
